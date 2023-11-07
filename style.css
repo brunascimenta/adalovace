@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    background-size: 400%;
+    height:100vh;
+    font-family: "Oswald";
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: #272628;
+    min-height: 50px;
+}
+
+.box-img-header{
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white
+}
+
+.nav-links:hover{
+    color:#ffc0cb;
+    text-decoration: underline;
+    transition: .4s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    padding: 4rem;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    min-height: 650px;
+    flex-wrap: wrap; 
+}
+
+.first-section > div{ 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 400px;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 8px;
+    color: #ffc0cb;
+}
+
+strong{
+    color: #ffc0cb;
+}
+
+.first-section p{
+    color: white;
+    text-align: center;
+}
+
+.box-img-main{
+    max-width: 450px;
+    padding: 1rem;
+}
+
+.image-profile{
+    width: 100%;
+    border-radius: 50%; 
+}
+
+.second-section{
+    background-color: #272628;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.title{
+    color: #ffc0cb;
+}
+
+.second-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.second-section p{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.thirt-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.thirt-section > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.thirt-section >div img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 8px;
+    color: #ffc0cb;
+}
+
+.thirt-section >div p{
+    max-width: 600px;
+    color: white;
+    text-align: justify;
+}
+
+.footer {
+    width: 100%;
+    height: 42px;
+    background-color:#ffc0cb; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    
+}
+
+.footer_texto{
+    font-size: 14px;
+    font-weight: 400;
+    color:#ffc0cb;
+    display: flex;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    line-height: 5;
+    }
+
+    .icone--texto{
+        margin: 0 8px;
+        animation: pulsar 1s infinite alternate;
+        
+    }
+    
+    @keyframes pulsar {
+        0% {
+        transform: scale(.8);
+    }
+    
+        100%{
+            transform: scale(1.2);
+        }   
+    }
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
